@@ -7,3 +7,5 @@ Framework :
 -------------------------------------------
 Tool:
 - Reset.css
+
+Font Awesome
