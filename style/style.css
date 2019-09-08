@@ -1,0 +1,28 @@
+@keyframes zoom {
+	0%{
+		transform: none;
+	}
+	100% {
+		transform: scale(1.5);
+	}
+}
+.navbar {
+	background-image: linear-gradient(to right, rgb(41, 128, 185), 
+		rgba(52, 152, 219,1),
+		 rgba(52, 152, 200,1));
+	color: #fff;
+}
+a:any-link {
+	color: rgba(236, 240, 241,1.0)
+}
+#gitHub:hover{
+	color: rgb(36, 41, 46);
+	animation: zoom linear 500ms forwards;
+}
+#linkedin:hover {
+	background-color: rgb(0,119,181);
+	animation: zoom linear 500ms forwards;
+}
+#sendMail:hover {
+	animation: zoom linear 500ms forwards;
+}
