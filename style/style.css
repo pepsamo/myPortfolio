@@ -6,6 +6,38 @@
 		transform: scale(1.5);
 	}
 }
+#ip-container {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	background-color: #fff;
+}
+/**
+ *#ip-container  .row [class*="col"] {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	opacity: 0;
+	cursor: default;
+	pointer-events: none;
+}
+ */
+.progress-bar {
+	background-image:  linear-gradient(to right, rgb(41, 128, 185), 
+		rgba(52, 152, 219,1),
+		 rgba(52, 152, 200,1));;
+	background-color: transparent;
+}
+.progress-bar span {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+#website  *{
+	z-index: 0;
+}
 .navbar {
 	background-image: linear-gradient(to right, rgb(41, 128, 185), 
 		rgba(52, 152, 219,1),
