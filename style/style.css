@@ -6,6 +6,12 @@
 		transform: scale(1.5);
 	}
 }
+@keyframes  animInitialHeader {
+	from {
+		opacity: 0; 
+		transform: translate3d(0,800px,0); 
+	}
+}
 #ip-container {
 	position: fixed;
 	top: 0;
@@ -22,8 +28,14 @@
 	opacity: 0;
 	cursor: default;
 	pointer-events: none;
-}
  */
+#ip-container  .row [class*="col"] {
+	opacity: 1;
+	animation: animInitialHeader 1s cubic-bezier(0.7,0,0.3,1) both;
+}
+.progress {
+	animation-delay: 200ms;
+}
 .progress-bar {
 	background-image:  linear-gradient(to right, rgb(41, 128, 185), 
 		rgba(52, 152, 219,1),
