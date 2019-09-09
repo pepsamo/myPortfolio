@@ -27,9 +27,9 @@ header#ip-container {
 	right: 0;
 	bottom: 0;
 	text-align: center;
-	background-image: linear-gradient(to right, rgb(41, 128, 185), 
-		rgba(52, 152, 219,1),
-		 rgba(52, 152, 200,1));
+	background-image: linear-gradient(to top, rgb(41, 128, 185), 
+		rgb(73, 149, 199), 
+		rgb(114, 176, 217));
 	z-index: 100;
 	color: rgba(236, 240, 241,1.0);
 }
@@ -75,9 +75,9 @@ left: 48%;
 	z-index: 0;
 }
 .navbar {
-	background-image: linear-gradient(to right, rgb(41, 128, 185), 
-		rgba(52, 152, 219,1),
-		 rgba(52, 152, 200,1));
+	background-image: linear-gradient(to bottom right, rgb(41, 128, 185), 
+		rgb(73, 149, 199), 
+		rgb(114, 176, 217));
 	color: rgba(236, 240, 241,1.0);
 }
 a:any-link {
