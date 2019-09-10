@@ -33,6 +33,9 @@ header#ip-container {
 	z-index: 100;
 	color: rgba(236, 240, 241,1.0);
 }
+.row {
+	height: 100%;
+}
 .spinner {
   position: absolute;
 top: 48%;
