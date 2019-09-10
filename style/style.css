@@ -123,3 +123,7 @@ a:any-link {
 	color: rgb(178,49,33);
 	background-color: rgb(238,238,238);
 }
+/*Style the main body of the site*/
+.jumbotron {
+	height: 90vh;
+}
