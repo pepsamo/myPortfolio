@@ -74,7 +74,7 @@ left: 48%;
   -webkit-animation-delay: -0.8s;
   animation-delay: -0.8s;
 }
-#website  *{
+#website  main{
 	z-index: 0;
 }
 .navbar {
@@ -103,6 +103,15 @@ a:any-link {
 	background-clip: text;
 }
 **/
+.scrollable {
+	position: fixed;
+	background-image: linear-gradient(to bottom right, rgb(41, 128, 185), 
+		rgba(73, 149, 199, 0.8), 
+		rgba(114, 176, 217, 0.8));
+	width: 100%;
+	top: 0;
+	z-index: 99;
+}
 #instagram:hover {
 	animation: zoom linear 500ms forwards;
 	background-image: radial-gradient(circle at 100% 100%, #fdf497 0%,
@@ -126,4 +135,5 @@ a:any-link {
 img {
 	height: 150px;
 	width: 150px;
+	z-index: inherit;
 }
