@@ -137,3 +137,13 @@ img {
 	width: 150px;
 	z-index: inherit;
 }
+.jumbotron {
+	background-image: linear-gradient(to bottom right, rgb(41, 128, 185), 
+		rgb(73, 149, 199), 
+		rgb(114, 176, 217));
+	color: rgba(236, 240, 241,1.0);
+	clip-path: polygon(1348px -1px, 0px 495px, 0px 0px);
+}
+.jumbotron .container {
+	width: 50%;
+}
