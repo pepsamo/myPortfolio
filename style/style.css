@@ -176,3 +176,14 @@ right: 0;
 .bg-grey{
 	background-color: #eee;
 }
+#home div .row div:nth-child(2) {
+	display: none; 
+}
+
+/* Breakpoints */
+
+/* Large devices (desktops, 992px and up)*/
+@media only screen  and (min-width : 1224px) {
+	#home div .row div:nth-child(2) {
+		display: flex;
+	}
