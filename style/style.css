@@ -163,8 +163,16 @@ right: 0;
 	background-color: transparent;
 }
 .jumbotron .container {
-	width: 50%;
+	width: 100vw;
 }
 #home {
 	color: rgba(236, 240, 241,1.0);
+}
+.bg-blue {
+	background-image: linear-gradient(to bottom right, rgb(41, 128, 185), 
+		rgb(73, 149, 199), 
+		rgb(114, 176, 217));
+}
+.bg-grey{
+	background-color: #eee;
 }
