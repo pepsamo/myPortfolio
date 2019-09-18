@@ -86,7 +86,7 @@ left: 48%;
 a:any-link {
 	color: rgba(236, 240, 241,1.0);
 }
-.fa-bars {
+#menu {
 	color: rgba(236, 240, 241,1.0);
 }
 #gitHub:hover{
