@@ -162,9 +162,6 @@ right: 0;
 .jumbotron {
 	background-color: transparent;
 }
-.jumbotron .container {
-	width: 100vw;
-}
 #home {
 	color: rgba(236, 240, 241,1.0);
 }
