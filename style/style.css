@@ -86,6 +86,9 @@ left: 48%;
 a:any-link {
 	color: rgba(236, 240, 241,1.0);
 }
+.fa-bars {
+	color: rgba(236, 240, 241,1.0);
+}
 #gitHub:hover{
 	color: rgb(36, 41, 46);
 	animation: zoom linear 500ms forwards;
