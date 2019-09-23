@@ -15,4 +15,15 @@
 
 // window.addEventListener("scroll", addScroolEv);
 
-//Add close button when the menu burger is clicked
+//Change the text of the label whenever you click menu to close and viceversa
+const menuText = document.querySelector("#menuText");
+
+const changeText = e => {
+    const thisElement = e.target;
+    //console.log(thisElement);
+    const afterClick = thisElement.textContent === "Menu" ? (thisElement.textContent = "Close") : (thisElement.textContent = "Menu");
+    //console.log(afterClick); 
+    return afterClick;
+};
+
+menuText.addEventListener("click", changeText);
